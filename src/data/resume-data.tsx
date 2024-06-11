@@ -20,7 +20,7 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Joeclecio Silva (joesilgos)",
+  name: "Joeclecio Silva (Joesilgos)",
   initials: "JS",
   location: "Natal, RN",
   locationLink: "",
@@ -28,7 +28,7 @@ export const RESUME_DATA = {
     "Desenvolvedor fullstack pleno com vasta experiência na criação e manutenção de sistemas complexos, especialmente voltados para contabilidade e automações.",
   summary:
     "Minha carreira inclui uma ampla gama de projetos, desde sistemas de gerenciamento de produtos até soluções de automação, e estou sempre em busca de aprender e aplicar novas tecnologias para resolver problemas complexos de maneira eficiente.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  avatarUrl: "https://avatars.githubusercontent.com/u/13321976?v=4",
   personalWebsiteUrl: "https://joesilgos.com",
   contact: {
     email: "joesilgos@gmail.com",
@@ -61,27 +61,26 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Montenegro Contabilidade",
-      link: "",
-      badges: ["Presencial"],
-      title: "Fullstack Pleno",
-      // logo: ConsultlyLogo,
-      start: "2021 - Atual",
-      end: null,
-      description:
-        "Organização e manutenção dos sistemas da empresa, implementação de estruturas e automações contábeis",
-    },
-
-    {
       company: "LukaTour",
       link: "https://lukatour.com.br/",
       badges: [],
       title: "Fullstack Pleno",
       logo: JojoMobileLogo,
       start: "2024",
-      end: "2024",
+      end: null,
       description:
         "Site de Apresentação de Turismo com preços e rotas",
+    },
+    {
+      company: "Montenegro Contabilidade",
+      link: "",
+      badges: ["Presencial"],
+      title: "Fullstack Pleno",
+      // logo: ConsultlyLogo,
+      start: "2021",
+      end: null,
+      description:
+        "Organização e manutenção dos sistemas da empresa, implementação de estruturas e automações contábeis",
     },
     {
       company: "Polpa de Frutas",
@@ -90,7 +89,7 @@ export const RESUME_DATA = {
       title: "Fullstack Pleno",
       logo: ClevertechLogo,
       start: "2021",
-      end: null,
+      end: "2021",
       description:
         "Sistema de Gerenciamento de Produtos para empresa de polpa de frutas",
     },
