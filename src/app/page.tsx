@@ -93,13 +93,13 @@ export default function Page() {
           </Avatar>
         </div>
         <Section>
-          <h2 className="text-xl font-bold">About</h2>
+          <h2 className="text-xl font-bold">Sobre</h2>
           <p className="text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
             {RESUME_DATA.summary}
           </p>
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Work Experience</h2>
+          <h2 className="text-xl font-bold">Experiência de trabalho</h2>
           {RESUME_DATA.work.map((work) => {
             return (
               <Card key={work.company}>
@@ -123,7 +123,7 @@ export default function Page() {
                       </span>
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
-                      {work.start} - {work.end ?? "Present"}
+                      {work.start} - {work.end ?? "Presente Momento"}
                     </div>
                   </div>
 
@@ -139,7 +139,7 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Education</h2>
+          <h2 className="text-xl font-bold">Educação</h2>
           {RESUME_DATA.education.map((education) => {
             return (
               <Card key={education.school}>
@@ -161,7 +161,7 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Skills</h2>
+          <h2 className="text-xl font-bold">Habilidades</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {
               return (
