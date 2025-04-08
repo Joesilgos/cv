@@ -130,7 +130,7 @@ export const RESUME_DATA = {
       company: "Igor tec",
       link: "",
       badges: ["Presencial"],
-      title: "Tecnico em repração de Placas Mãe ATX",
+      title: "Tecnico em reparação de Placas Mãe ATX",
       logo: NSNLogo,
       start: "2017",
       end: "2018",
