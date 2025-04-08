@@ -44,11 +44,11 @@ export const RESUME_DATA = {
         url: "https://www.linkedin.com/in/joeclecio-silgos/",
         icon: LinkedInIcon,
       },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+      // {
+      //   name: "X",
+      //   url: "https://x.com/BartoszJarocki",
+      //   icon: XIcon,
+      // },
     ],
   },
   education: [
@@ -60,17 +60,7 @@ export const RESUME_DATA = {
     // },
   ],
   work: [
-    {
-      company: "LukaTour",
-      link: "https://lukatour.com.br/",
-      badges: ["Freelancer"],
-      title: "Fullstack Pleno",
-      logo: JojoMobileLogo,
-      start: "2024",
-      end: null,
-      description:
-        "desenvolvi um site de apresentação de turismo que inclui preços e rotas, permitindo o gerenciamento de cadastros onde os clientes podem se inscrever para obter os serviços oferecidos. O site facilita a organização e gestão dos pacotes turísticos",
-    },
+    
     {
       company: "Montenegro Contabilidade",
       link: "",
@@ -81,6 +71,17 @@ export const RESUME_DATA = {
       end: null,
       description:
         "Responsável pela organização e manutenção dos sistemas da empresa, implementei estruturas e automações contábeis. Desenvolvi automações para processos repetitivos, como captura de informações de sites governamentais, além de um sistema de intranet e outras ferramentas voltadas para a área contábil.",
+    },
+    {
+      company: "LukaTour",
+      link: "https://www.lukatouradventure.com.br/",
+      badges: ["Freelancer"],
+      title: "Fullstack Pleno",
+      logo: JojoMobileLogo,
+      start: "2024",
+      end: "2024",
+      description:
+        "desenvolvi um site de apresentação de turismo que inclui preços e rotas, permitindo o gerenciamento de cadastros onde os clientes podem se inscrever para obter os serviços oferecidos. O site facilita a organização e gestão dos pacotes turísticos",
     },
     {
       company: "Polpa de Frutas",
@@ -196,6 +197,125 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      "title": "Automação para Gerenciamento de Notas Fiscais e Captura de Vários Municípios",
+      "techStack": ["Python", "Playwright", "Airflow", "MySQL"],
+      "description": "(Montengro Contabilidade, Clan) Desenvolvi uma automação para captura e gerenciamento de notas fiscais de diversos municípios utilizando filas para processamento paralelo.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "Provedor de Autenticação Sincronizado",
+      "techStack": ["Python", "Keycloak", "LDAP", "NestJS"],
+      "description": "(Montengro Contabilidade, Clan) Criei um provedor de autenticação integrado ao Keycloak e LDAP para gerenciar autenticações de usuários em diferentes plataformas.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "API de Captura de Informações do Portal Onvio",
+      "techStack": ["Python", "Playwright", "NestJS", "NextJS"],
+      "description": "(Montengro Contabilidade, Clan) Desenvolvi uma API para captura e unificação de informações do portal Onvio, exibindo gráficos e dados para melhor gerenciamento.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "API de Captura de Tarefas do Portal Gestta",
+      "techStack": ["Python", "Playwright", "NestJS", "NextJS"],
+      "description": "(Montengro Contabilidade, Clan) Desenvolvi uma API para captura e gerenciamento de tarefas no portal Gestta com suporte a múltiplos nodes conectados para execução distribuída.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "Automação de Captura de Dados do Portal Directa",
+      "techStack": ["Python", "Playwright", "Airflow"],
+      "description": "(Montengro Contabilidade, Clan) Implementei uma automação para captura de dados do portal Directa sem necessidade de autenticação, utilizando Playwright e Airflow.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "Captura de CAPTCHA do Portal UVT SEFAZ RN",
+      "techStack": ["Python", "Playwright", "Airflow"],
+      "description": "(Montengro Contabilidade, Clan) Criei uma solução para captura e resolução de CAPTCHA do portal UVT SEFAZ RN utilizando Python.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "Resumo XML de Notas Fiscais",
+      "techStack": ["TypeScript", "NestJS", "NextJS"],
+      "description": "(Montengro Contabilidade, Clan) Desenvolvi uma aplicação chamada Resumo XML que facilita o acesso e visualização de resumos de notas fiscais para colaboradores.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "API de Gerenciamento de Empresas via CNPJ",
+      "techStack": ["Python", "MySQL", "NestJS"],
+      "description": "(Montengro Contabilidade, Clan) Desenvolvi uma API para gerenciamento de dados de empresas com controle de acesso limitado para evitar custos adicionais na consulta por CNPJ.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "Gerenciamento de Arquivos com Docker e MinIO",
+      "techStack": ["Python", "Docker", "MinIO"],
+      "description": "(Montengro Contabilidade, Clan) Implementei a integração e salvamento de arquivos de diversos sistemas em um servidor de arquivos gerenciado com Docker e MinIO.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "Comparador de Boletos",
+      "techStack": ["Python", "Docker", "NestJS"],
+      "description": "(Montengro Contabilidade, Clan) Criei um comparador de boletos que identifica erros em valores e numerações usando algoritmos de comparação e QR Codes de Pix.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "Automação de Comparativo de Notas",
+      "techStack": ["Python", "NestJS", "Playwright"],
+      "description": "(Montengro Contabilidade, Clan) Desenvolvi uma automação que compara notas da Domínio Sistemas com as do portal UVT SEFAZ RN, facilitando o gerenciamento de informações.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "Captura de Informações do Portal Sieg",
+      "techStack": ["Python", "Playwright"],
+      "description": "(Montengro Contabilidade, Clan) Implementei uma automação para captura de informações do portal Sieg usando Playwright.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "Automação de Captura de Notas do Portal Tinus",
+      "techStack": ["Python", "Playwright"],
+      "description": "(Montengro Contabilidade, Clan) Desenvolvi uma automação para captura de informações das notas do portal Tinus.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "Gerenciamento de Senhas Internas",
+      "techStack": ["TypeScript", "NestJS", "NextJS"],
+      "description": "(Montengro Contabilidade, Clan) Criei um sistema para gerenciamento de senhas de portais de uso interno, organizado e seguro.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "Captura e Gerenciamento de Informações de NCM",
+      "techStack": ["TypeScript", "NestJS", "NextJS"],
+      "description": "(Montengro Contabilidade, Clan) Implementei um sistema para captura e gerenciamento de informações de NCM.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "Gerenciamento de Certificados",
+      "techStack": ["TypeScript", "NestJS", "NextJS"],
+      "description": "(Montengro Contabilidade, Clan) Desenvolvi um sistema para monitorar vencimentos e inserção de certificados com base nas empresas internas.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "Controle de Convenções e Acordos Coletivos",
+      "techStack": ["TypeScript", "NestJS", "NextJS"],
+      "description": "(Montengro Contabilidade, Clan) Implementei um sistema para o gerenciamento e controle de convenções e acordos coletivos.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
       title: "LukaTour",
       techStack: [
         "Full Stack Developer",
@@ -221,7 +341,7 @@ export const RESUME_DATA = {
         "Linux",
       ],
       description:
-        "Organizei estruturas de VM, implementei Docker e separei automações, melhorando o gerenciamento e eficiência operacional.",
+        "(Montengro Contabilidade, Clan) Organizei estruturas de VM, implementei Docker e separei automações, melhorando o gerenciamento e eficiência operacional.",
       logo: ParabolLogo,
       link: {
         label: "",
@@ -238,7 +358,7 @@ export const RESUME_DATA = {
         "MateriaUi",
       ],
       description:
-        "Desenvolvi um sistema completo para gerenciar processos dinâmicos de esteira, com fluxos flexíveis que facilitam a operação. O sistema permite ajustes em tempo real, otimiza a produtividade, e oferece uma interface intuitiva para o operador.",
+        "(Montengro Contabilidade, Clan) Desenvolvi um sistema completo para gerenciar processos dinâmicos de esteira, com fluxos flexíveis que facilitam a operação. O sistema permite ajustes em tempo real, otimiza a produtividade, e oferece uma interface intuitiva para o operador.",
       logo: ParabolLogo,
       link: {
         label: "",
@@ -252,7 +372,7 @@ export const RESUME_DATA = {
         "Python",
       ],
       description:
-        "Desenvolvi uma integração com raspagem do ChatGPT Free para capturar informações, conectando-as com a Alexa para automatizar processos internos residenciais. Esse sistema permite comandos de voz para gerenciar tarefas domésticas.",
+        "(Montengro Contabilidade, Clan) Desenvolvi uma integração com raspagem do ChatGPT Free para capturar informações, conectando-as com a Alexa para automatizar processos internos residenciais. Esse sistema permite comandos de voz para gerenciar tarefas domésticas.",
       logo: ParabolLogo,
       link: {
         label: "",
@@ -260,7 +380,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Montengro Contabilidade",
+      title: "Intranet interno para a empresa",
       techStack: [
         "Nextjs",
         "Nestjs",
@@ -276,7 +396,7 @@ export const RESUME_DATA = {
         "Squel",
       ],
       description:
-        "Criei uma intranet para gerenciar processos internos da empresa, otimizando a comunicação e a eficiência operacional.",
+        "(Montengro Contabilidade, Clan) Criei uma intranet para gerenciar processos internos da empresa, otimizando a comunicação e a eficiência operacional.",
       logo: ParabolLogo,
       link: {
         label: "",
@@ -284,13 +404,13 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Montengro Contabilidade",
+      title: "Organização do Airflow",
       techStack: [
         "Airflow",
         "Python",
       ],
       description:
-        "Container Docker com Airflow para gerenciar DAGs de processos de forma eficiente.",
+        "(Montengro Contabilidade, Clan) Container Docker com Airflow para gerenciar DAGs de processos de forma eficiente.",
       logo: ParabolLogo,
       link: {
         label: "",
@@ -298,7 +418,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Montengro Contabilidade",
+      title: "Captura de informações",
       techStack: [
         "FastApi",
         "Python",
@@ -306,7 +426,7 @@ export const RESUME_DATA = {
         "Mysql",
       ],
       description:
-        "Desenvolvi uma API para iniciar e capturar informações de vários portais, automatizando a coleta de dados e melhorando a integração entre sistemas.",
+        "(Montengro Contabilidade, Clan) Desenvolvi uma API para iniciar e capturar informações de vários portais, automatizando a coleta de dados e melhorando a integração entre sistemas.",
       logo: ParabolLogo,
       link: {
         label: "",
@@ -314,7 +434,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Montengro Contabilidade",
+      title: "Gerenciador de envio de e-mails",
       techStack: [
         "Nestjs",
         "Kafka",
@@ -322,7 +442,7 @@ export const RESUME_DATA = {
         "Mysql",
       ],
       description:
-        "Desenvolvi um microserviço para disparo organizado de e-mails, garantindo alta eficiência e personalização. O sistema gerencia filas de envio, rastreamento de status e respostas, integrando-se com diversas plataformas de e-mail para otimizar a comunicação.",
+        "(Montengro Contabilidade, Clan) Desenvolvi um microserviço para disparo organizado de e-mails, garantindo alta eficiência e personalização. O sistema gerencia filas de envio, rastreamento de status e respostas, integrando-se com diversas plataformas de e-mail para otimizar a comunicação.",
       logo: ParabolLogo,
       link: {
         label: "",
@@ -336,13 +456,14 @@ export const RESUME_DATA = {
         "Mysql",
       ],
       description:
-        "Desenvolvi um comparador de notas que renomeia automaticamente conforme os registros do banco de dados.",
+        "(Montengro Contabilidade, Clan) Desenvolvi um comparador de notas que renomeia automaticamente conforme os registros do banco de dados.",
       logo: ParabolLogo,
       link: {
         label: "",
         href: "",
       },
     },
+
 
     // ////////////////////////////
     
