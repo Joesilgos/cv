@@ -29,7 +29,7 @@ export const RESUME_DATA = {
   summary:
     "Minha carreira inclui uma ampla gama de projetos, desde sistemas de gerenciamento de produtos até soluções de automação, e estou sempre em busca de aprender e aplicar novas tecnologias para resolver problemas complexos de maneira eficiente.",
   avatarUrl: "https://avatars.githubusercontent.com/u/13321976?v=4",
-  personalWebsiteUrl: "https://joesilgos.com",
+  personalWebsiteUrl: "https://portfolio.joesilgos.com",
   contact: {
     email: "joesilgos@gmail.com",
     tel: "",
