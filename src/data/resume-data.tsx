@@ -133,8 +133,8 @@ export const RESUME_DATA = {
       badges: ["Presencial"],
       title: "Tecnico em reparação de Placas Mãe ATX",
       logo: NSNLogo,
-      start: "2017",
-      end: "2018",
+      start: "2010",
+      end: "2012",
       description:
         "Trabalhei com reparação e conserto de placas-mãe ATX, com ampla experiência em diagnóstico e resolução de problemas complexos. Realizo serviços de soldagem de componentes, substituição de capacitores e chips, além de reparos em trilhas e conectores.",
     },
