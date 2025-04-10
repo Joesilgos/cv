@@ -204,6 +204,34 @@ export const RESUME_DATA = {
       "link": { "label": "", "href": "" }
     },
     {
+      "title": "Automação de Captura de Dados do Portal Directa",
+      "techStack": ["Python", "Playwright", "Airflow"],
+      "description": "(Montengro Contabilidade) Implementei uma automação para captura de dados do portal Directa sem necessidade de autenticação, utilizando Playwright e Airflow.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "Automação de Comparativo de Notas",
+      "techStack": ["Python", "NestJS", "Playwright"],
+      "description": "(Montengro Contabilidade) Desenvolvi uma automação que compara notas da Domínio Sistemas com as do portal UVT SEFAZ RN, facilitando o gerenciamento de informações.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "Captura de Informações do Portal Sieg",
+      "techStack": ["Python", "Playwright"],
+      "description": "(Montengro Contabilidade) Implementei uma automação para captura de informações do portal Sieg usando Playwright.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
+      "title": "Automação de Captura de Notas do Portal Tinus",
+      "techStack": ["Python", "Playwright"],
+      "description": "(Montengro Contabilidade) Desenvolvi uma automação para captura de informações das notas do portal Tinus.",
+      "logo": ParabolLogo,
+      "link": { "label": "", "href": "" }
+    },
+    {
       "title": "Provedor de Autenticação Sincronizado",
       "techStack": ["Python", "Keycloak", "LDAP", "NestJS"],
       "description": "(Montengro Contabilidade) Criei um provedor de autenticação integrado ao Keycloak e LDAP para gerenciar autenticações de usuários em diferentes plataformas.",
@@ -224,13 +252,7 @@ export const RESUME_DATA = {
       "logo": ParabolLogo,
       "link": { "label": "", "href": "" }
     },
-    {
-      "title": "Automação de Captura de Dados do Portal Directa",
-      "techStack": ["Python", "Playwright", "Airflow"],
-      "description": "(Montengro Contabilidade) Implementei uma automação para captura de dados do portal Directa sem necessidade de autenticação, utilizando Playwright e Airflow.",
-      "logo": ParabolLogo,
-      "link": { "label": "", "href": "" }
-    },
+    
     {
       "title": "Captura de CAPTCHA do Portal UVT SEFAZ RN",
       "techStack": ["Python", "Playwright", "Airflow"],
@@ -266,27 +288,7 @@ export const RESUME_DATA = {
       "logo": ParabolLogo,
       "link": { "label": "", "href": "" }
     },
-    {
-      "title": "Automação de Comparativo de Notas",
-      "techStack": ["Python", "NestJS", "Playwright"],
-      "description": "(Montengro Contabilidade) Desenvolvi uma automação que compara notas da Domínio Sistemas com as do portal UVT SEFAZ RN, facilitando o gerenciamento de informações.",
-      "logo": ParabolLogo,
-      "link": { "label": "", "href": "" }
-    },
-    {
-      "title": "Captura de Informações do Portal Sieg",
-      "techStack": ["Python", "Playwright"],
-      "description": "(Montengro Contabilidade) Implementei uma automação para captura de informações do portal Sieg usando Playwright.",
-      "logo": ParabolLogo,
-      "link": { "label": "", "href": "" }
-    },
-    {
-      "title": "Automação de Captura de Notas do Portal Tinus",
-      "techStack": ["Python", "Playwright"],
-      "description": "(Montengro Contabilidade) Desenvolvi uma automação para captura de informações das notas do portal Tinus.",
-      "logo": ParabolLogo,
-      "link": { "label": "", "href": "" }
-    },
+    
     {
       "title": "Gerenciamento de Senhas Internas",
       "techStack": ["TypeScript", "NestJS", "NextJS"],
